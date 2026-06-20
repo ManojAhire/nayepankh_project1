@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -22,6 +23,7 @@ export default function App() {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="*" element={<Hero />} />
             </Routes>
+            <Footer />
         </div>
     );
 }

@@ -106,7 +106,7 @@ export default function Hero() {
               We don't ask for much, just help us with what you can—
               Be it Money, Skill or Your Time.
             </p>
-            <div className="py-8"> <a href="#volunteer" ><button className="text-black bg-white h-15 px-4 py-2 hover:bg-orange-400 hover:text-white transition-all duration-300 px-6 mx-8 text-sm"> Join Us</button></a>  <a href="#donate" ><button className="text-black bg-white h-15 px-4 py-2 hover:bg-orange-400 hover:text-white transition-all duration-300 relative mx-3 text-sm" >Donate Now</button></a></div>
+            <div className="py-8"> <a href="/volunteer" ><button className="text-black bg-white h-15 px-4 py-2 hover:bg-orange-400 hover:text-white transition-all duration-300 px-6 mx-8 text-sm"> Join Us</button></a>  <a href="/contact" ><button className="text-black bg-white h-15 px-4 py-2 hover:bg-orange-400 hover:text-white transition-all duration-300 relative mx-3 text-sm" >Donate Now</button></a></div>
             
           </div>
         </div>
@@ -154,9 +154,9 @@ export default function Hero() {
             LEARN MORE
           </button>
         </a>
-        <a href="/certificates">
+        <a href="/programs">
           <button className="bg-white text-black text-sm px-10 py-4 hover:bg-orange-500 hover:text-white transition-all duration-300 tracking-wider ">
-            OUR CERTIFICATES
+            OUR PROGRAMS
           </button>
         </a>
       </div>
@@ -429,6 +429,32 @@ export default function Hero() {
             </a>
           </div>
 
+        </div>
+      </div>
+    </section>
+
+    <section className="bg-[#f7f7f7] py-20">
+      <div className="max-w-6xl mx-auto px-8 text-center">
+        <p className="uppercase tracking-[10px] text-[#c96a2d] text-sm font-medium mb-6">
+          Make a Difference
+        </p>
+        <h2 className="text-5xl lg:text-6xl font-bold text-[#1d1e20] mb-6">
+          Be the reason someone smiles today.
+        </h2>
+        <p className="text-gray-600 text-lg leading-8 max-w-3xl mx-auto mb-10">
+          Your time, support, and kindness can create lasting change for children and communities across India.
+        </p>
+        <div className="flex justify-center gap-4 flex-wrap">
+          <a href="/volunteer">
+            <button className="bg-[#26201e] text-white px-10 py-4 text-sm tracking-wider hover:bg-orange-500 transition-all duration-300">
+              VOLUNTEER NOW
+            </button>
+          </a>
+          <a href="/contact">
+            <button className="bg-white text-[#26201e] border border-[#26201e] px-10 py-4 text-sm tracking-wider hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all duration-300">
+              CONTACT US
+            </button>
+          </a>
         </div>
       </div>
     </section>
